@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 * {
   padding: 0;
@@ -108,14 +108,32 @@ nav {
 
 .features {
   padding: 50px 12%;
-  font-size: 22px;
 }
 
-.row{
-    width: 100%;
-
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-
+.row {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
 }
+
+.textcol {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.imgcol {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.imgcol img {
+  display: block;
+  width: 90%;
+}
+
+.features h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+
